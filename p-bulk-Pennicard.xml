@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="trap_state.xsd">
+  <name>Pennicard</name>
+  <trap>
+    <name>A1</name>
+    <type>A</type>
+    <energy>0.42</energy>
+    <deg>1</deg>
+    <sigmae>9.5e-15</sigmae>
+    <sigmah>9.5e-14</sigmah>
+    <eta>1.613</eta>
+  </trap>
+  <trap>
+    <name>A2</name>
+    <type>A</type>
+    <energy>0.46</energy>
+    <deg>1</deg>
+    <sigmae>5e-15</sigmae>
+    <sigmah>5e-14</sigmah>
+    <eta>0.9</eta>
+  </trap>
+  <trap>
+    <name>D1</name>
+    <type>D</type>
+    <energy>0.36</energy>
+    <deg>1</deg>
+    <sigmae>3.23e-13</sigmae>
+    <sigmah>3.23e-14</sigmah>
+    <eta>0.9</eta>
+  </trap>
+</model>

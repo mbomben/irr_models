@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="trap_state.xsd">
+  <name>Chiochia</name>
+  <trap>
+    <name>A</name>
+    <type>A</type>
+    <energy>0.525</energy>
+    <deg>1</deg>
+    <sigmae>1e-14</sigmae>
+    <sigmah>0.4e-14</sigmah>
+    <eta>0.8</eta>
+  </trap>
+  <trap>
+    <name>D</name>
+    <type>D</type>
+    <energy>0.48</energy>
+    <deg>1</deg>
+    <sigmae>1e-14</sigmae>
+    <sigmah>0.4e-14</sigmah>
+    <eta>6</eta>
+  </trap>
+</model>
