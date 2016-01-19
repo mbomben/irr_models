@@ -1,0 +1,5 @@
+### p-type bulk - Petasecca 2015
+set nit=0.8*${ox_surf_charge}
+inttrap e.level=0.4 acceptor density=0.4*${nit} degen=1 sign=1.2e-15 sigp=1.2e-15
+inttrap e.level=0.6 acceptor density=0.6*${nit} degen=1 sign=6e-16 sigp=6e-16
+inttrap e.level=0.6 donor    density=1.0*${nit} degen=1 sign=1e-15 sigp=1e-15
