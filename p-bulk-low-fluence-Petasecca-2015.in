@@ -1,4 +1,4 @@
-    ### p-type bulk - Petasecca - 2015 - low fluence
+    ### p-type bulk - Perugia - 2015 - low fluence
     set d1=1.613*$fluence
     set d2=0.9*$fluence
     set d3=0.9*$fluence
