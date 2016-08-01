@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="trap_state.xsd">
+  <name>Delhi-2016</name>
+  <trap>
+    <name>A1</name>
+    <type>A</type>
+    <energy>0.51</energy>
+    <deg>1</deg>
+    <sigmae>2e-14</sigmae>
+    <sigmah>2e-14</sigmah>
+    <eta>4</eta>
+  </trap>
+  <trap>
+    <name>D1</name>
+    <type>D</type>
+    <energy>0.48</energy>
+    <deg>1</deg>
+    <sigmae>2.00e-14</sigmae>
+    <sigmah>2.60e-14</sigmah>
+    <eta>3.0</eta>
+  </trap>
+</model>
