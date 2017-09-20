@@ -10,7 +10,7 @@ xsi:noNamespaceSchemaLocation="trap_state.xsd">
     <energy>0.51</energy>
     <deg>1</deg>
     <sigmae>2e-14</sigmae>
-    <sigmah>2e-14</sigmah>
+    <sigmah>3.8e-14</sigmah>
     <eta>4</eta>
   </trap>
   <trap>
@@ -18,8 +18,8 @@ xsi:noNamespaceSchemaLocation="trap_state.xsd">
     <type>D</type>
     <energy>0.48</energy>
     <deg>1</deg>
-    <sigmae>2.00e-14</sigmae>
-    <sigmah>2.60e-14</sigmah>
+    <sigmae>2.00e-15</sigmae>
+    <sigmah>2.00e-15</sigmah>
     <eta>3.0</eta>
   </trap>
 </model>
