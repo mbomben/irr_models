@@ -1,0 +1,8 @@
+    ### n-type bulk - Petasecca
+    set d1=13*$fluence
+    set d2=0.08*$fluence
+    set d3=1.1*$fluence
+    trap acceptor e.level=0.42 density=$d1 degen=1 sign=2.0e-15 sigp=1.2e-14
+    trap acceptor e.level=0.50 density=$d2 degen=1 sign=5e-15 sigp=3.5e-14
+    trap donor e.level=0.36 density=$d3 degen=1 sign=2e-18 sigp=2.5e-15
+
