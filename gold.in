@@ -1,0 +1,6 @@
+    ### p-type bulk - Forbes 1977 - gold dopant
+    set d1=1*$fluence
+    set d2=1*$fluence
+    trap acceptor e.level=0.55 density=$d1 degen=1 sign=1.7E-16 sigp=7.5E-15
+    trap donor e.level=0.35 density=$d2 degen=1 sign=4.6E-15 sigp=4.6E-15
+
