@@ -1,10 +1,10 @@
    # Hamburg Penta Trap Model - https://indico.cern.ch/event/719814/contributions/3022491/attachments/1661107/2661343/js_RD50_Hamburg_20180604.pdf
-   set EG=1.08
+   #set EG=1.08
    set d1=0.0497*$fluence
    set d2=0.6447*$fluence
    set d3=0.4335*$fluence
    set d4=0.5878*$fluence
-   set d4=0.3780*$fluence
+   set d5=0.3780*$fluence
    trap donor    e.level=${EG}-0.1 density=$d1 degen=1 sign=2.3e-14   sigp=2.920e-16
    trap acceptor e.level=0.458     density=$d2 degen=1 sign=2.551e-14 sigp=1.511e-13
    trap acceptor e.level=0.545     density=$d3 degen=1 sign=4.478e-15 sigp=6.709e-15
