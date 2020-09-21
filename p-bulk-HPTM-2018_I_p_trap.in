@@ -1,0 +1,15 @@
+### Hamburg Penta Trap Model - https://indico.cern.ch/event/719814/contributions/3022491/attachments/1661107/2661343/js_RD50_Hamburg_20180604.pdf
+### https://arxiv.org/abs/1904.10234
+### In this version the trap-assisted-tunneling is turned on only for the I_p 
+### defect which is the acceptor at 0.545 eV from Ec
+### set EG=1.08
+   set d1=0.0497*$fluence
+   set d2=0.6447*$fluence
+   set d3=0.4335*$fluence
+   set d4=0.5978*$fluence
+   set d5=0.3780*$fluence
+   trap donor    e.level=${EG}-0.1 density=$d1 degen=1 sign=2.3e-14   sigp=2.920e-16
+   trap acceptor e.level=0.458     density=$d2 degen=1 sign=2.551e-14 sigp=1.511e-13
+   trap acceptor e.level=0.545     density=$d3 degen=1 sign=4.478e-15 sigp=6.709e-15 trap.tunnel mass.tunnel=0.25
+   trap donor    e.level=0.48      density=$d4 degen=1 sign=4.166e-15 sigp=1.965e-16
+   trap donor    e.level=0.36      density=$d5 degen=1 sign=3.230e-17 sigp=2.036e-14
