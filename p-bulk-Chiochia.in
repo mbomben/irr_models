@@ -1,0 +1,14 @@
+    ### p-type bulk - Chiochia 
+    ## deep levels
+    set Ed=0.48
+    set Ea=0.525 
+
+    set etaD=6
+    set Nd = ${etaD}*${fluence}
+    set Na = 0.8*${Nd}
+    set sign=1e-14
+    set sigp=0.4*${sign}
+    trap acceptor e.level=${Ea} density=${Na} degen=1 sign=${sign} sigp=${sigp}
+    trap donor e.level=${Ed} density=${Nd} degen=1 sign=${sign} sigp=${sigp}
+    
+
